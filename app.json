@@ -13,14 +13,16 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ayushborage.GoogleAuth"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.ayushborage.GoogleAuth"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +34,11 @@
           "iosUrlScheme": "com.googleusercontent.apps._some_id_here_"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "768fe853-5843-4a94-b6d4-e6f1e716991d"
+      }
+    }
   }
 }
