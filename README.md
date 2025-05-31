@@ -2,7 +2,7 @@
 
 A **fully working, up-to-date implementation** of Google Sign-In in React Native for both **Android and iOS** platforms.
 
-> Save 3–4 weeks of struggle! This one-stop solution is based on my own experience of scraping through outdated blogs, broken guides, and confusing documentation.
+> Save hours of struggle! This one-stop solution is based on my own experience of scraping through outdated blogs, broken guides, and confusing documentation.
 
 ---
 
