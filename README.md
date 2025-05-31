@@ -21,7 +21,6 @@ A **fully working, up-to-date implementation** of Google Sign-In in React Native
 - ✅ Google Sign-In on both Android & iOS
 - ✅ React Native CLI (not Expo, but easy to adapt)
 - ✅ Firebase Authentication integration (optional)
-- ✅ Clean and minimal UI
 - ✅ Fully tested in 2025 React Native version
 
 ---
