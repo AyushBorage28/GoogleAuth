@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D604B290CEC2BCED54BCAE2 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26174D3295223C47F379EF17 /* ExpoModulesProvider.swift */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2FD3EEF946D4C14C7AFE1470 /* libPods-GoogleAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEB4BA8EC6724B5084615CB /* libPods-GoogleAuth.a */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		5E99E5CB90EF5B58E440E445 /* libPods-GoogleAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5499C2E8F7B1EE939DA7687 /* libPods-GoogleAuth.a */; };
-		7A64F7FED7BA359BC44CB32E /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0983FC8296D0EE592C0FA96 /* ExpoModulesProvider.swift */; };
+		4888636B2DEBB83C007378CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4888636A2DEBB83C007378CC /* GoogleService-Info.plist */; };
+		6F9EE2AA71CA76CB6DD2CDEE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A1D104E35E10B5AC11E50FD7 /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		C6591FF2158ED73952338EDC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2E109B43F5CFAF08A50AA12C /* PrivacyInfo.xcprivacy */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,13 +21,14 @@
 		13B07F961A680F5B00A75B9A /* GoogleAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GoogleAuth/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GoogleAuth/Info.plist; sourceTree = "<group>"; };
-		2E109B43F5CFAF08A50AA12C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = GoogleAuth/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		6F3C157A2C18515E2FB89A75 /* Pods-GoogleAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAuth.release.xcconfig"; path = "Target Support Files/Pods-GoogleAuth/Pods-GoogleAuth.release.xcconfig"; sourceTree = "<group>"; };
+		26174D3295223C47F379EF17 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-GoogleAuth/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		48122C4A6A4AB3B5A3F1C575 /* Pods-GoogleAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAuth.debug.xcconfig"; path = "Target Support Files/Pods-GoogleAuth/Pods-GoogleAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		4888636A2DEBB83C007378CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4A0EA10B6FD6A2F1554EEF7B /* Pods-GoogleAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAuth.release.xcconfig"; path = "Target Support Files/Pods-GoogleAuth/Pods-GoogleAuth.release.xcconfig"; sourceTree = "<group>"; };
+		5FEB4BA8EC6724B5084615CB /* libPods-GoogleAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleAuth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D104E35E10B5AC11E50FD7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = GoogleAuth/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = GoogleAuth/SplashScreen.storyboard; sourceTree = "<group>"; };
-		B0983FC8296D0EE592C0FA96 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-GoogleAuth/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		C7092B4A25ADCFF55FA39D45 /* Pods-GoogleAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAuth.debug.xcconfig"; path = "Target Support Files/Pods-GoogleAuth/Pods-GoogleAuth.debug.xcconfig"; sourceTree = "<group>"; };
-		E5499C2E8F7B1EE939DA7687 /* libPods-GoogleAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoogleAuth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = GoogleAuth/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* GoogleAuth-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "GoogleAuth-Bridging-Header.h"; path = "GoogleAuth/GoogleAuth-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E99E5CB90EF5B58E440E445 /* libPods-GoogleAuth.a in Frameworks */,
+				2FD3EEF946D4C14C7AFE1470 /* libPods-GoogleAuth.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,13 +49,14 @@
 		13B07FAE1A68108700A75B9A /* GoogleAuth */ = {
 			isa = PBXGroup;
 			children = (
+				4888636A2DEBB83C007378CC /* GoogleService-Info.plist */,
 				F11748412D0307B40044C1D9 /* AppDelegate.swift */,
 				F11748442D0722820044C1D9 /* GoogleAuth-Bridging-Header.h */,
 				BB2F792B24A3F905000567C9 /* Supporting */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				2E109B43F5CFAF08A50AA12C /* PrivacyInfo.xcprivacy */,
+				A1D104E35E10B5AC11E50FD7 /* PrivacyInfo.xcprivacy */,
 			);
 			name = GoogleAuth;
 			sourceTree = "<group>";
@@ -62,19 +65,17 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				E5499C2E8F7B1EE939DA7687 /* libPods-GoogleAuth.a */,
+				5FEB4BA8EC6724B5084615CB /* libPods-GoogleAuth.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		55EA8D754B37368F20C772E5 /* Pods */ = {
+		60677DC1BB93C64376EF1959 /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				C7092B4A25ADCFF55FA39D45 /* Pods-GoogleAuth.debug.xcconfig */,
-				6F3C157A2C18515E2FB89A75 /* Pods-GoogleAuth.release.xcconfig */,
+				F4666C98002DB950CA6C2BEF /* GoogleAuth */,
 			);
-			name = Pods;
-			path = Pods;
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -91,8 +92,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				55EA8D754B37368F20C772E5 /* Pods */,
-				B8C6223D9FA925CD0186B049 /* ExpoModulesProviders */,
+				A5505D098C53C048099CB61C /* Pods */,
+				60677DC1BB93C64376EF1959 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -107,20 +108,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B8C6223D9FA925CD0186B049 /* ExpoModulesProviders */ = {
+		A5505D098C53C048099CB61C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B8CA66F9D432AC4D553636D9 /* GoogleAuth */,
+				48122C4A6A4AB3B5A3F1C575 /* Pods-GoogleAuth.debug.xcconfig */,
+				4A0EA10B6FD6A2F1554EEF7B /* Pods-GoogleAuth.release.xcconfig */,
 			);
-			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
-		B8CA66F9D432AC4D553636D9 /* GoogleAuth */ = {
-			isa = PBXGroup;
-			children = (
-				B0983FC8296D0EE592C0FA96 /* ExpoModulesProvider.swift */,
-			);
-			name = GoogleAuth;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -132,6 +126,14 @@
 			path = GoogleAuth/Supporting;
 			sourceTree = "<group>";
 		};
+		F4666C98002DB950CA6C2BEF /* GoogleAuth */ = {
+			isa = PBXGroup;
+			children = (
+				26174D3295223C47F379EF17 /* ExpoModulesProvider.swift */,
+			);
+			name = GoogleAuth;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,13 +142,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GoogleAuth" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				3EE15AE1C9A6BE07F10CF41B /* [Expo] Configure project */,
+				666510F1F7D846DB54BC9BFE /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				F1816768C26FF8E05B5523CD /* [CP] Embed Pods Frameworks */,
+				B5B7E79279C9EC99FC209A8E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,8 +197,9 @@
 			files = (
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4888636B2DEBB83C007378CC /* GoogleService-Info.plist in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				C6591FF2158ED73952338EDC /* PrivacyInfo.xcprivacy in Resources */,
+				6F9EE2AA71CA76CB6DD2CDEE /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +243,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3EE15AE1C9A6BE07F10CF41B /* [Expo] Configure project */ = {
+		666510F1F7D846DB54BC9BFE /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -303,7 +306,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleAuth/Pods-GoogleAuth-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F1816768C26FF8E05B5523CD /* [CP] Embed Pods Frameworks */ = {
+		B5B7E79279C9EC99FC209A8E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,7 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				7A64F7FED7BA359BC44CB32E /* ExpoModulesProvider.swift in Sources */,
+				0D604B290CEC2BCED54BCAE2 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +341,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7092B4A25ADCFF55FA39D45 /* Pods-GoogleAuth.debug.xcconfig */;
+			baseConfigurationReference = 48122C4A6A4AB3B5A3F1C575 /* Pods-GoogleAuth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -374,7 +377,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F3C157A2C18515E2FB89A75 /* Pods-GoogleAuth.release.xcconfig */;
+			baseConfigurationReference = 4A0EA10B6FD6A2F1554EEF7B /* Pods-GoogleAuth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -457,10 +460,7 @@
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -515,10 +515,7 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
