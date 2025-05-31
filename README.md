@@ -9,9 +9,9 @@ A **fully working, up-to-date implementation** of Google Sign-In in React Native
 ## 📸 Preview
 
 <p align="center">
-  <img src="./android-login.jpeg" alt="Android Screenshot" width="200" height="435"/>
+  <img src="./screenshots/android-logout.gif" alt="Android Screenshot" width="200" height="435"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="./ios-login.png" alt="iOS Screenshot" width="200"/>
+  <img src="./screenshots/ios-login.gif" alt="iOS Screenshot" width="200"/>
 </p>
 
 ---
