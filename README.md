@@ -244,4 +244,4 @@ To publish on **TestFlight**, you'll need an Apple Developer account (\$99/year)
 
 ## 🧠 Maintainer
 
-Built with ❤️ by [Ayush Borage](mailto:ayushborage28@gmail.com)
+Built with ❤️ by [Ayush Borage](https://github.com/AyushBorage28)
